@@ -1,0 +1,12 @@
+package com.example.damcuoi.request;
+
+import lombok.Data;
+
+@Data
+public class MenuRequest {
+    private Long id;
+
+    private String name;
+
+    private double price;
+}
